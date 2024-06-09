@@ -6,6 +6,7 @@ CREATE TABLE `User` (
     `last_name` VARCHAR(191) NOT NULL,
     `user_name` VARCHAR(255) NOT NULL,
     `country` VARCHAR(191) NOT NULL,
+    `teacher` BOOLEAN NOT NULL DEFAULT false,
 
     UNIQUE INDEX `User_email_key`(`email`),
     PRIMARY KEY (`id`)

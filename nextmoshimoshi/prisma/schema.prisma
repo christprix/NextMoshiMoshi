@@ -23,6 +23,7 @@ model User {
   profile Profile?
   country String
   interest Interest[]
+  teacher Boolean @default(false)
 }
 
 model Profile {
@@ -40,5 +41,4 @@ model Interest {
   author User @relation(fields: [authorId], references: [id])
   authorId Int
 }
-
 

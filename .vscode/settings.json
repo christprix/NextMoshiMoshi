@@ -9,9 +9,9 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "test",
-            "database": "moshimoshi",
             "username": "root",
+            "database": "moshimoshi",
+            "name": "moshimoshi",
             "askForPassword": true
         }
     ]
